@@ -412,6 +412,8 @@ function getGameMarkAsClass(gameMark) {
             return "go";
         case "Virtual Console":
             return "vc";
+        case "Sword & Shield":
+            return "sword-shield";
     }
     return undefined;
 }
