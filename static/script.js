@@ -672,7 +672,7 @@ function displayPokemon(){
             pokemon.evs.spe = getValue(this.gsx$speev);
             pokemon.gameMark = tryGetValue(this, ["genmark", "generationmark", "gamemark"]);
             if (pokemon.tid) {
-                if (pokemon.gameMark == "Alola Symbol" || pokemon.gameMark == "Black Clover") {
+                if (pokemon.gameMark == "Alola Symbol" || pokemon.gameMark == "Black Clover" || pokemon.gameMark == "Sword & Shield") {
                     pokemon.tid = ("000000" + pokemon.tid).slice(-6);
                 } else {
                     pokemon.tid = ("00000" + pokemon.tid).slice(-5);
